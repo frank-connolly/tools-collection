@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/utils-collection.iml" filepath="$PROJECT_DIR$/utils-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools-collection.iml" filepath="$PROJECT_DIR$/tools-collection.iml" />
     </modules>
   </component>
 </project>
