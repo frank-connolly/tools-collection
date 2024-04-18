@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script: generateApi.sh
+# Script: generateFromOpenApi.sh
 # Purpose: This script fetches the OpenAPI schema file from a remote git repository, saves it locally, and then generates TypeScript code from the API schema.
 #
 # Usage: Set the project config properties and run this script in a bash shell. No arguments are required.
