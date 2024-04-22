@@ -17,6 +17,7 @@ set -e
 TARGET_PROJECT_NAME=cia_backend
 TARGET_REPO_URL=git@git.cronn.de:a-team/umweltbundesamt/cia-2/cia-backend.git
 TARGET_SCHEMA_PATH=data/test/validation/OpenApiTest_testOpenApiDoc.json
+EXTRACTED_SCHEMA_PATH=data/test/validation/OpenApiTest_testOpenApiDoc.json
 
 # Setup dirs and paths
 GENERATED_API_DIR=./generated-api
@@ -35,7 +36,7 @@ else
 fi
 
 # Tidy filename and fetched dirs
-mv $SCHEMA_DIR/data/test/validation/OpenApiTest_testOpenApiDoc.json $LOCAL_SCHEMA_PATH
+mv $SCHEMA_DIR/$EXTRACTED_SCHEMA_PATH $LOCAL_SCHEMA_PATH
 rm -rf $SCHEMA_DIR/data
 echo "Schema file saved to: $LOCAL_SCHEMA_PATH"
 
